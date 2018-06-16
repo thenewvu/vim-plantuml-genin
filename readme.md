@@ -47,5 +47,4 @@ Known issues
 ============
 
 * Slow: PlantUML is slow, this plugin runs it synchronously on each source
-block, so it's even more slower. It should be fixed soon by caching the outcome
-diagrams or run PlantUML asynchronously.
+block, so it's even more slower. Currently, there's no good way to fix this.
